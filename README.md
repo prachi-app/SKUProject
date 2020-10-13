@@ -1,5 +1,6 @@
 # SKUProject
 Code given by LifeSeasons
+#Date 10/08/2020
 
 Requirement:
    We want to give our marketing team the ability to make combo offers for various products and set the promo price to be whatever they want it to be without having to create a "Kit" item in our ERP for each combo they make.  Because BigCommerce does not have a native way to combine products for a promo, but write each item as a separate line item, we are using a naming convention that allows us to interpret this "grouping" of products in the correct way.  If marketing wants to combine two products (SKUs 208 and 225 for example,) they will name the grouping G-208-225.  We will read any item in a BigCommerce order that starts with "G-" as a grouping of items that we will write into a Sales Order in Sage as individual line items.  In this example, we would write the SO with 1x 208 and 1x 225.
